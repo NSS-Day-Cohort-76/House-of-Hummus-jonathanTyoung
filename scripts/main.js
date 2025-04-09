@@ -2,8 +2,10 @@ import { FoodTruck } from "./FoodTruck.js"
 
 const mainContainer = document.querySelector("#container")
 
-const renderAllHTML = () => {
-    mainContainer.innerHTML = FoodTruck()
+const renderAllHTML = async () => {
+
+    //usually all the HTML goes between here
+    mainContainer.innerHTML = await FoodTruck()
 }
 
 renderAllHTML()
