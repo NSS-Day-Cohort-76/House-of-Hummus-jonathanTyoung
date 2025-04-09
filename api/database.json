@@ -132,28 +132,34 @@
   ],
   "sales": [
     {
-      "entreeId": 1,
-      "vegId": 9,
-      "sideId": 6,
+      "entreeId": 7,
+      "vegetableId": 6,
+      "sideId": 1,
       "id": 1
     },
     {
       "entreeId": 12,
-      "vegId": 9,
+      "vegetableId": 9,
       "sideId": 6,
       "id": 2
     },
     {
       "entreeId": 2,
-      "vegId": 2,
-      "sideId": 2,
+      "vegetableId": 6,
+      "sideId": 4,
       "id": 3
     },
     {
-      "entreeId": 10,
-      "vegId": 4,
+      "entreeId": 11,
+      "vegetableId": 5,
       "sideId": 1,
       "id": 4
+    },
+    {
+      "entreeId": 11,
+      "vegetableId": 9,
+      "sideId": 6,
+      "id": 5
     }
   ]
 }

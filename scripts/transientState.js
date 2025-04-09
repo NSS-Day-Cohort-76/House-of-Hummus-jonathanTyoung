@@ -1,6 +1,6 @@
 const transientState = {
     entreeId: null,
-    vegId: null,
+    vegetableId: null,
     sideId: null
 }
 
@@ -8,8 +8,8 @@ const transientState = {
 export const setEntreeId = (chosenEntree) => {
     transientState.entreeId = chosenEntree
 }
-export const setVegId = (chosenVeg) => {
-    transientState.vegId = chosenVeg
+export const setVegetableId = (chosenVeg) => {
+    transientState.vegetableId = chosenVeg
 }
 export const setSideId = (chosenSide) => {
     transientState.sideId = chosenSide

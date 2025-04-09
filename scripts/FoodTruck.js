@@ -2,15 +2,16 @@ import { entreeOptions } from "./Entrees.js"
 import { sideOptions } from "./SideDishes.js";
 import { vegOptions } from "./Vegetables.js";
 import { submissionButton } from "./submissionButton.js";
-import { Sales } from "./Sales.js"
+import { sales } from "./Sales.js"
 
 
 export const FoodTruck = async() => {
     const entreeOptionsHTML = await entreeOptions();
     const vegetableOptionsHTML = await vegOptions();
     const sideOptionsHTML = await sideOptions();
-    const submissionButtonHTML = await submissionButton();
-    const salesHTML = await Sales() 
+    const salesHTML = await sales()
+    const submissionButtonHTML = submissionButton();
+ 
     
     return `
         <header class="header">
@@ -34,14 +35,13 @@ export const FoodTruck = async() => {
             </section>
         </article>
 
-      
         <article>
                 ${submissionButtonHTML}
         </article>
 
         <article class="customerOrders">
-            <h2>Monthly Sales</h2>
-            ${salesHTML}
+                <h2>Monthly Sales</h2>
+                ${salesHTML}
         
         </article>
 

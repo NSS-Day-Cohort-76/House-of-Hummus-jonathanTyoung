@@ -1,13 +1,13 @@
-import {setVegId} from "./transientState.js"
+import {setVegetableId} from "./transientState.js"
 
-const handleVegChoice = (event) => {
+const handleVegetableChoice = (event) => {
     if (event.target.name === "vegetable") {
-        setVegId(parseInt(event.target.value))
+        setVegetableId(parseInt(event.target.value))
     }
 }
 
 export const vegOptions = async () => {
-    document.addEventListener("change", handleVegChoice)
+    document.addEventListener("change", handleVegetableChoice)
     const response = await fetch("http://localhost:8088/vegetables")
     const vegetables = await response.json()
 
