@@ -132,52 +132,16 @@
   ],
   "sales": [
     {
-      "entreeId": 7,
-      "vegetableId": 6,
-      "sideId": 1,
+      "entreeId": 3,
+      "vegetableId": 1,
+      "sideId": 6,
       "id": 1
     },
     {
-      "entreeId": 12,
-      "vegetableId": 9,
-      "sideId": 6,
+      "entreeId": null,
+      "vegetableId": null,
+      "sideId": null,
       "id": 2
-    },
-    {
-      "entreeId": 2,
-      "vegetableId": 6,
-      "sideId": 4,
-      "id": 3
-    },
-    {
-      "entreeId": 11,
-      "vegetableId": 5,
-      "sideId": 1,
-      "id": 4
-    },
-    {
-      "entreeId": 11,
-      "vegetableId": 9,
-      "sideId": 6,
-      "id": 5
-    },
-    {
-      "entreeId": 7,
-      "vegetableId": 5,
-      "sideId": 1,
-      "id": 6
-    },
-    {
-      "entreeId": 8,
-      "vegetableId": 1,
-      "sideId": 6,
-      "id": 7
-    },
-    {
-      "entreeId": 1,
-      "vegetableId": 7,
-      "sideId": 3,
-      "id": 8
     }
   ]
 }

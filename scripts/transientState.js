@@ -4,7 +4,7 @@ const transientState = {
     sideId: null
 }
 
-// Functions to modify each property of transient state
+
 export const setEntreeId = (chosenEntree) => {
     transientState.entreeId = chosenEntree
 }
@@ -16,6 +16,10 @@ export const setSideId = (chosenSide) => {
 }
 
 export  const placeOrder = async () => {
+     if (!transientState.entreeId || !transientState.vegetableId || !transientState.sideId) {
+        alert("Please make sure to select an entree, a vegetable, and a side before placing your order.");
+        return;
+    }
     const postOptions = {
     method: "POST",
     headers: {
